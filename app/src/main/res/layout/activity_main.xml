@@ -4,10 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center_horizontal"
     tools:context=".MainActivity">
+        <Button
+            android:id="@+id/b_topdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convertir a PDF"/>
         <ImageView
             android:id="@+id/iv_pdf"
             android:src="@drawable/ticket_sello"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
 </LinearLayout>
